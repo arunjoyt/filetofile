@@ -4,6 +4,12 @@ app_publisher = "Arun Joy Thekkiniyath"
 app_description = "An app which acts as a framework to upload a file, process that file and download the processed file."
 app_email = "arunjoyt@gmail.com"
 app_license = "mit"
+
+fixtures = [
+    {"doctype": "Server Script", 
+    "filters": [["name", "=", "ProcessFile"]]
+    }
+]
 # required_apps = []
 
 # Includes in <head>
