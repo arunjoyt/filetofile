@@ -6,8 +6,17 @@ app_email = "arunjoyt@gmail.com"
 app_license = "mit"
 
 fixtures = [
-    {"doctype": "Server Script", 
-    "filters": [["name", "=", "ProcessFile"]]
+    {
+        "doctype": "Server Script", 
+        "filters": [["name", "=", "ProcessFile"]]
+    },
+    {
+        "doctype": "Web Page",
+        "filters": [["name", "=", "FileToFile"]]
+    },
+    {
+        "doctype": "Role",
+        "filters": [["name", "=", "F2FUser"]]
     }
 ]
 # required_apps = []
