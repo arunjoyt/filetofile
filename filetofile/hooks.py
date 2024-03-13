@@ -17,6 +17,12 @@ fixtures = [
     {
         "doctype": "Role",
         "filters": [["name", "=", "F2FUser"]]
+    },
+    {
+        "doctype": "Custom DocPerm",
+        "filters": {
+            "role": ["in", "F2FUser"]
+        }
     }
 ]
 # required_apps = []
